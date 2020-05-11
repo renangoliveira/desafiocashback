@@ -8,11 +8,11 @@ Instalação:
 
 No projeto "CashbackRepository":
 
----
-
 Add-Migration InitialCreate
 
 Update-Database
+
+---
 
 - Front
 
