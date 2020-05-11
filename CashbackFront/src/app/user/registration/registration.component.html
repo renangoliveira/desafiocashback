@@ -1,0 +1,155 @@
+<div class="row mt-4">  
+  <div class="col-md-10">
+    <form [formGroup]="registerForm">
+      <div class="form-group required">
+        <label for="">Nome:</label>
+        <input type="text" class="form-control" formControlName="nome" [ngClass]="{'is-invalid': registerForm.get('nome').errors && registerForm.get('nome').touched }" placeholder="Nome" />
+        <div *ngIf="registerForm.get('nome').hasError('required') && registerForm.get('nome').touched" class="invalid-feedback">
+          Nome é obrigatório.
+        </div>        
+      </div>
+
+      <div class="form-group required">
+        <label for="">Sorenome:</label>
+        <input type="text" class="form-control" formControlName="sobrenome" [ngClass]="{'is-invalid': registerForm.get('sobrenome').errors && registerForm.get('sobrenome').touched }" placeholder="Sobrenome" />
+        <div *ngIf="registerForm.get('sobrenome').hasError('required') && registerForm.get('sobrenome').touched" class="invalid-feedback">
+          Sobrenome é obrigatório
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="">CPF:</label>
+        <input name="cpfCnpj" nccCpfCnpjValidator nccCpfCnpjMask class="form-control" type="text" formControlName="cpf" [ngClass]="{'is-invalid': registerForm.get('cpf').errors && registerForm.get('cpf').touched}" placeholder="CPF" minlength="14" maxlength="14"/>
+        <div *ngIf="registerForm.get('cpf').hasError('required') && registerForm.get('cpf').touched" class="invalid-feedback">        
+          CPF é obrigatório.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="">Email:</label>
+        <input class="form-control" type="text" formControlName="email" [ngClass]="{ 'is-invalid': registerForm.get('email').errors && registerForm.get('email').touched}" placeholder="Email" />
+        <div *ngIf="registerForm.get('email').hasError('required') && registerForm.get('email').touched" class="invalid-feedback">
+          Email é obrigatório.
+        </div>
+        <div *ngIf="registerForm.get('email').hasError('email') && registerForm.get('email').touched" class="invalid-feedback">
+          Deve ser um e-mail válido.
+        </div>
+      </div>   
+      
+      <div formGroupName="passwords">
+        <div class="form-group">
+          <label for="">Senha:</label>
+          <input class="form-control" type="password" formControlName="senha" [ngClass]="{ 'is-invalid': registerForm.get('passwords.senha').errors &&
+                                       registerForm.get('passwords.senha').touched}"
+            placeholder="Digite uma Senha" />
+          <div *ngIf="registerForm.get('passwords.senha').hasError('minlength') &&
+            registerForm.get('passwords.senha').touched" class="invalid-feedback">
+            Deve conter no mínimo 4 caracters
+          </div>
+          <div *ngIf="registerForm.get('passwords.senha').hasError('required') &&
+                      registerForm.get('passwords.senha').touched" class="invalid-feedback">
+            Senha é obrigatório.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="">Confirmar Senha:</label>
+          <input class="form-control" type="password" formControlName="confirmPassword" [ngClass]="{ 'is-invalid': registerForm.get('passwords.confirmPassword').errors 
+                         && registerForm.get('passwords.confirmPassword').touched 
+                         ||registerForm.get('passwords.confirmPassword').hasError('mismatch') 
+                         && registerForm.get('passwords.confirmPassword').touched }" placeholder="Confirme a Senha" />
+          <div *ngIf="registerForm.get('passwords.confirmPassword').hasError('required') &&
+                      registerForm.get('passwords.confirmPassword').touched" class="invalid-feedback">
+            Confirme a Senha
+          </div>
+          <div *ngIf="registerForm.get('passwords.confirmPassword').hasError('mismatch') 
+                      && registerForm.get('passwords.confirmPassword').touched" class="invalid-feedback">
+            Confirmação não confere
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-8 offset-md-2">
+          <button class="btn btn-lg btn-success btn-block" [disabled]="!registerForm.valid"
+            (click)="cadastrarUsuario()">Registar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- BACKUP:
+
+<div class="row mt-4">  
+  <div class="col-md-10">
+    <form [formGroup]="registerForm">
+      <div class="form-group required">
+        <label for="">Nome:</label>
+        <input type="text" class="form-control" formControlName="nome" [ngClass]="{'is-invalid': registerForm.get('nome').errors && registerForm.get('nome').touched }" placeholder="Nome" />
+        <div *ngIf="registerForm.get('nome').hasError('required') && registerForm.get('nome').touched" class="invalid-feedback">
+          Nome é obrigatório
+        </div>
+      </div>
+
+      <div class="form-group required">
+        <label for="">Nome:</label>
+        <input type="text" class="form-control" formControlName="sobrenome" [ngClass]="{'is-invalid': registerForm.get('sobrenome').errors && registerForm.get('sobrenome').touched }" placeholder="Sobrenome" />
+        <div *ngIf="registerForm.get('sobrenome').hasError('required') && registerForm.get('sobrenome').touched" class="invalid-feedback">
+          Nome é obrigatório
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="">CPF:</label>
+        <input name="cpfCnpj" nccCpfCnpjValidator nccCpfCnpjMask class="form-control" type="text" formControlName="cpf" [ngClass]="{'is-invalid': registerForm.get('cpf').errors && registerForm.get('cpf').touched}" placeholder="CPF" minlength="14" maxlength="14"/>
+        <div *ngIf="registerForm.get('cpf').hasError('required') && registerForm.get('cpf').touched" class="invalid-feedback">        
+          CPF é obrigatório.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="">Email:</label>
+        <input class="form-control" type="text" formControlName="email" [ngClass]="{ 'is-invalid': registerForm.get('email').errors && registerForm.get('email').touched}" placeholder="Email" />
+        <div *ngIf="registerForm.get('email').hasError('required') && registerForm.get('email').touched" class="invalid-feedback">
+          Email é obrigatório.
+        </div>
+        <div *ngIf="registerForm.get('email').hasError('email') && registerForm.get('email').touched" class="invalid-feedback">
+          Deve ser um e-mail válido.
+        </div>
+      </div>      
+      <div formGroupName="passwords">
+        <div class="form-group">
+          <label for="">Senha:</label>
+          <input class="form-control" type="password" formControlName="senha" [ngClass]="{ 'is-invalid': registerForm.get('passwords.senha').errors && registerForm.get('passwords.senha').touched}"
+            placeholder="Senha" />
+          <div *ngIf="registerForm.get('passwords.senha').hasError('minlength') && registerForm.get('passwords.senha').touched" class="invalid-feedback">
+            Deve conter no mínimo 4 caracters
+          </div>
+          <div *ngIf="registerForm.get('passwords.senha').hasError('required') && registerForm.get('passwords.senha').touched" class="invalid-feedback">
+            Senha é obrigatório.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="">Confirmar Senha:</label>
+          <input class="form-control" type="password" formControlName="confirmPassword" [ngClass]="{ 'is-invalid': registerForm.get('passwords.confirmPassword').errors 
+                         && registerForm.get('passwords.confirmPassword').touched 
+                         ||registerForm.get('passwords.confirmPassword').hasError('mismatch') 
+                         && registerForm.get('passwords.confirmPassword').touched }" placeholder="Confirme a Senha" />
+          <div *ngIf="registerForm.get('passwords.confirmPassword').hasError('required') &&
+                      registerForm.get('passwords.confirmPassword').touched" class="invalid-feedback">
+            Confirme a Senha
+          </div>
+          <div *ngIf="registerForm.get('passwords.confirmPassword').hasError('mismatch')  && registerForm.get('passwords.confirmPassword').touched" class="invalid-feedback">
+            Confirmação não confere
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-8 offset-md-2">
+          <button class="btn btn-lg btn-success btn-block" [disabled]="!registerForm.valid"
+            (click)="cadastrarUsuario()">Cadastrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+-->

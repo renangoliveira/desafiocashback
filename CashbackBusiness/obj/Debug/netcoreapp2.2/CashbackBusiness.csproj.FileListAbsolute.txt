@@ -1,0 +1,12 @@
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\bin\Debug\netcoreapp2.2\CashbackBusiness.deps.json
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\bin\Debug\netcoreapp2.2\CashbackBusiness.dll
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\bin\Debug\netcoreapp2.2\CashbackBusiness.pdb
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\bin\Debug\netcoreapp2.2\CashbackDomain.dll
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\bin\Debug\netcoreapp2.2\CashbackDomain.pdb
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.csprojAssemblyReference.cache
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.csproj.CoreCompileInputs.cache
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.AssemblyInfoInputs.cache
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.AssemblyInfo.cs
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.csproj.CopyComplete
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.dll
+E:\Project\Visual Studio\Cashback\Cashback\CashbackBusiness\obj\Debug\netcoreapp2.2\CashbackBusiness.pdb
