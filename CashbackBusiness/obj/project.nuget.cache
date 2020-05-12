@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K/RvmdLarYIY+weHPTIsfKb5nAIW5s3ziCpoyKQD9aGDnp5nJ25/9x934d+PBcaX9KyML6eIUVqDrMemyKOJow==",
+  "dgSpecHash": "xYylrmqFW6neylBfoW6JLNnchoEDLdgKOpqr3+RdM2LY1U8XJ2tvRO1dhozmC5dfDpXkrKuZx7b04hFUO3v1dQ==",
   "success": true,
-  "projectFilePath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackBusiness\\CashbackBusiness.csproj",
+  "projectFilePath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackBusiness\\CashbackBusiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

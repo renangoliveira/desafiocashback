@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CashbackRepository.Migrations
 {
     [DbContext(typeof(CashbackContext))]
-    [Migration("20200511012008_InitialCreate")]
+    [Migration("20200512052857_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

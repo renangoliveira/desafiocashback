@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GywHs45HOEi5VOesyWvvdqReKKJ1uCE6n9e7Y4kQqxo6ofGYXuz6TcMCgLVkMVyj5/EyfedcbeTrAceDA+k+rg==",
+  "dgSpecHash": "D0BhwmSgc2PGfyrxpMzddiJ7iTQFiTaiepbkhnNQ5UfTMmOOJrWnDLz7GPhGyYtgjzOTmq+ZMK6vKkhQi3gtag==",
   "success": true,
-  "projectFilePath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackRepository\\CashbackRepository.csproj",
+  "projectFilePath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackRepository\\CashbackRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renan\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

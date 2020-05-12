@@ -4106,11 +4106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackBusiness\\CashbackBusiness.csproj",
+      "projectUniqueName": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackBusiness\\CashbackBusiness.csproj",
       "projectName": "CashbackBusiness",
-      "projectPath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackBusiness\\CashbackBusiness.csproj",
+      "projectPath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackBusiness\\CashbackBusiness.csproj",
       "packagesPath": "C:\\Users\\Renan\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackBusiness\\obj\\",
+      "outputPath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackBusiness\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Renan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4126,8 +4126,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackDomain\\CashbackDomain.csproj": {
-              "projectPath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackDomain\\CashbackDomain.csproj"
+            "E:\\Project\\Visual Studio\\desafiocashback\\CashbackDomain\\CashbackDomain.csproj": {
+              "projectPath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackDomain\\CashbackDomain.csproj"
             }
           }
         }

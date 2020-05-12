@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3VYgl6Nt7Zp8QJ3iqNecX49xrrwtGuuOkiCQj9nHi3UaBVH7yntqTdJ6kwO4thk9XyVSytFq3o+2wKiZremI7Q==",
+  "dgSpecHash": "Pfg14AFZyOkWSniDRmaZwEQmJ7hFQE5Qvnm4tPTbTcSH1UOLTzVv/O+HAxXtt1QV4VK5uvw9Jg2jaGLm6quP+w==",
   "success": true,
-  "projectFilePath": "E:\\Project\\Visual Studio\\Cashback\\Cashback\\CashbackTest\\CashbackTest.csproj",
+  "projectFilePath": "E:\\Project\\Visual Studio\\desafiocashback\\CashbackTest\\CashbackTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renan\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

@@ -10,3 +10,15 @@ E:\Project\Visual Studio\Cashback\Cashback\CashbackRepository\obj\Debug\netcorea
 E:\Project\Visual Studio\Cashback\Cashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.csproj.CopyComplete
 E:\Project\Visual Studio\Cashback\Cashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.dll
 E:\Project\Visual Studio\Cashback\Cashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.pdb
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\bin\Debug\netcoreapp2.2\CashbackRepository.deps.json
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\bin\Debug\netcoreapp2.2\CashbackRepository.dll
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\bin\Debug\netcoreapp2.2\CashbackRepository.pdb
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\bin\Debug\netcoreapp2.2\CashbackDomain.dll
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\bin\Debug\netcoreapp2.2\CashbackDomain.pdb
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.csprojAssemblyReference.cache
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.csproj.CoreCompileInputs.cache
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.AssemblyInfoInputs.cache
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.AssemblyInfo.cs
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.csproj.CopyComplete
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.dll
+E:\Project\Visual Studio\desafiocashback\CashbackRepository\obj\Debug\netcoreapp2.2\CashbackRepository.pdb
