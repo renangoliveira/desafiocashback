@@ -16,7 +16,8 @@ const routes: Routes = [
     ]
   },
   { path: 'vendas', component: VendasComponent, canActivate: [AuthGuard]},
-  { path: 'contatos', component: ContatosComponent, canActivate: [AuthGuard]}
+  { path: 'contatos', component: ContatosComponent, canActivate: [AuthGuard]},
+  { path: '**', redirectTo: '/user/login' }
 ];
 
 @NgModule({
